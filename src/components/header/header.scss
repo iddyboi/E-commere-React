@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.6;
+}
+.options {
+  display: flex;
+  .option {
+    padding: 0 0.7rem;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+    &:hover {
+      color: rgba(221, 21, 21, 0.637);
+      transition: 0.2s;
+    }
+  }
+}
